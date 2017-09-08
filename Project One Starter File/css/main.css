@@ -5,6 +5,9 @@
    ========================================================================== */
 
 
+.nav.navbar-left{
+	color: lightgray;
+}
 
 .glyphicon-book{
 	font-size: 2.5rem;
@@ -18,12 +21,24 @@
 	font-size: 2.5rem;
 }
 
+
 .carousel-caption{
 	text-shadow: 2px 1px #000;
 }
 
+.box{
+	height:100%;
+	width: 100%;
+}
 
+.container-fluid{
+	background-color: lightgray;
+}
 
+.fixingWidth{
+	margin-left: 5%;
+	margin-right: 5%;
+}
 
 
 
