@@ -4,9 +4,8 @@
    Author's custom styles
    ========================================================================== */
 
-
-.nav.navbar-left{
-	color: lightgray;
+.tryIt{
+	color:red;
 }
 
 .glyphicon-book{
