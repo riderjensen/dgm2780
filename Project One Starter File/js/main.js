@@ -9,4 +9,3 @@ $('#myAffix').affix({
   }
 });
 
-$('.collapse').collapse();

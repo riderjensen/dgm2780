@@ -4,9 +4,6 @@
    Author's custom styles
    ========================================================================== */
 
-.tryIt{
-	color:red;
-}
 
 .glyphicon-book{
 	font-size: 2.5rem;
@@ -25,10 +22,6 @@
 	text-shadow: 2px 1px #000;
 }
 
-.box{
-	height:100%;
-	width: 100%;
-}
 
 .container-fluid{
 	background-color: lightgray;
