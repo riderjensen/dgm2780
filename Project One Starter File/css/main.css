@@ -23,8 +23,9 @@
 }
 
 
-.container-fluid{
+.container.addGrayBackground{
 	background-color: lightgray;
+	
 }
 
 .fixingWidth{
