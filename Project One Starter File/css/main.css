@@ -5,6 +5,7 @@
    ========================================================================== */
 
 
+
 .glyphicon-book{
 	font-size: 2.5rem;
 }
@@ -23,7 +24,7 @@
 }
 
 
-.container.addGrayBackground{
+.container-fluid.addGrayBackground{
 	background-color: lightgray;
 	
 }
