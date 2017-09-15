@@ -24,7 +24,7 @@
 }
 
 
-.container-fluid.addGrayBackground{
+.addGrayBackground{
 	background-color: lightgray;
 	
 }
@@ -34,6 +34,10 @@
 	margin-right: 5%;
 }
 
+.siteWidth{
+	width:1170px;
+	margin:auto;
+}
 
 
 
