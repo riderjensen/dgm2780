@@ -1,13 +1,16 @@
-body, p, h1, h2, h3, h4, h5, h6 {
+body, p, h1, h2, .wrapper .home-page p, h3, .wrapper .home-page .float-left-p p, .wrapper .home-page .float-right-p p, h4, h5, h6 {
   padding: 0;
   margin: 0; }
 
 header {
-  background-color: #FF5C5C; }
+  background-color: #3783B2; }
   header h1 {
     margin-left: 25%;
-    color: black; }
+    color: white; }
   header ul {
+    position: absolute;
+    top: 0;
+    right: 25%;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
@@ -16,63 +19,74 @@ header {
       float: left; }
       header ul li a {
         display: inline-block;
-        color: black;
-        padding: 10px;
+        color: white;
+        padding-right: 15px;
+        padding-left: 15px;
         text-decoration: none; }
       header ul li a:hover {
         color: #B25353; }
 
-.wrapper .home-page {
-  margin-left: 25%;
-  width: 980px; }
-  .wrapper .home-page .banner-image {
-    align-content: center;
-    width: 940px;
-    height: 240px;
-    background: gray; }
-  .wrapper .home-page h2 {
-    margin-left: 20px;
-    margin-bottom: 20px; }
-  .wrapper .home-page p {
-    margin-left: 20px;
-    margin-bottom: 20px; }
-  .wrapper .home-page img {
-    align-content: center;
-    width: 200px;
-    height: 200px;
-    border: 1px solid #3783B2;
-    margin: 20px; }
-  .wrapper .home-page .float-left-p {
-    width: 470px;
-    float: left; }
-    .wrapper .home-page .float-left-p h3 {
+.wrapper {
+  font-family: Arial, sans-serif; }
+  .wrapper .myBackgroundImage {
+    overflow: hidden; }
+    .wrapper .myBackgroundImage img {
+      z-index: -1;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      opacity: 0.6; }
+  .wrapper .home-page {
+    background-color: white;
+    margin-left: 25%;
+    width: 980px;
+    height: 1100px; }
+    .wrapper .home-page .banner-image {
+      align-content: center;
+      width: 940px;
+      height: 240px;
+      border: 1px solid #FF5C5C; }
+    .wrapper .home-page h2, .wrapper .home-page p {
       margin-left: 20px;
-      text-align: left; }
-    .wrapper .home-page .float-left-p p {
-      margin-left: 20px;
-      text-align: left; }
-  .wrapper .home-page .float-right-p {
-    margin-left: 490px;
-    width: 470px; }
-    .wrapper .home-page .float-right-p h3 {
-      margin-left: 20px;
-      text-align: left; }
-    .wrapper .home-page .float-right-p p {
-      margin-left: 20px;
-      text-align: left; }
-.wrapper footer {
-  margin-left: 40%; }
-  .wrapper footer ul {
-    list-style: none; }
-    .wrapper footer ul li {
-      float: left;
-      margin: 10px; }
-      .wrapper footer ul li a {
-        display: block;
-        color: black;
-        padding: 16px;
-        text-decoration: none; }
-      .wrapper footer ul li a:hover {
-        color: #B25353; }
+      margin-bottom: 20px; }
+    .wrapper .home-page p {
+      padding-right: 20px; }
+    .wrapper .home-page .far-right-thumb {
+      margin-left: 30px; }
+    .wrapper .home-page img {
+      width: 200px;
+      height: 200px;
+      border: 1px solid #3783B2;
+      margin: 15px; }
+    .wrapper .home-page h3, .wrapper .home-page .float-left-p p, .wrapper .home-page .float-right-p p {
+      padding-bottom: 5px; }
+    .wrapper .home-page .float-left-p {
+      width: 470px;
+      float: left; }
+      .wrapper .home-page .float-left-p h3, .wrapper .home-page .float-left-p p {
+        margin-left: 20px;
+        text-align: left; }
+    .wrapper .home-page .float-right-p {
+      margin-left: 490px;
+      width: 470px; }
+      .wrapper .home-page .float-right-p h3, .wrapper .home-page .float-right-p p {
+        margin-left: 20px;
+        text-align: left; }
+      .wrapper .home-page .float-right-p p {
+        padding-bottom: 20px; }
+    .wrapper .home-page ul {
+      margin-left: 25%;
+      list-style: none; }
+      .wrapper .home-page ul li {
+        float: left;
+        margin: 10px; }
+        .wrapper .home-page ul li a {
+          display: block;
+          color: black;
+          padding: 16px;
+          text-decoration: none; }
+        .wrapper .home-page ul li a:hover {
+          color: #B25353; }
 
 /*# sourceMappingURL=main.css.map */

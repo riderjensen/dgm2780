@@ -1,12 +1,15 @@
 // Header SCSS
 
 header {
-	background-color:$primary-color;
+	background-color:$secondary-color;
     h1{
     	margin-left: 25%;
-    	color: black;
+    	color: white;
     }
     ul{
+    	position: absolute;
+    	top: 0;
+    	right: 25%;
     	list-style-type: none;
 	    padding: 0;
 	    overflow: hidden;
@@ -16,13 +19,15 @@ header {
 			float: left;
 			a{
 			display: inline-block;
-			color: black;
-			padding: 10px;
+			color: white;
+			padding-right: 15px;
+			padding-left: 15px;
 			text-decoration: none;
 			}
 			a:hover{
 				color: $accent-color;
 			}
+
 		}// end LI
 
 	}// end UL
