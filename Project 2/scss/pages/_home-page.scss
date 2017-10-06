@@ -1,13 +1,87 @@
 // Home Page SCSS
 
-#home-page {
-
-	h1 {
-		color: $skyrocket-red;	
-	}
-
-}// #home-page
-
-#home-page h1 {
-	color: blue;
+@mixin margin-left-and-bottom($pixel-number){
+	margin-left: $pixel-number;
+	margin-bottom: $pixel-number;
 }
+
+.wrapper{
+
+	.home-page{
+		margin-left: 25%;
+		width: 980px;
+		.banner-image{
+			align-content: center;
+			width: 940px;
+			height: 240px;
+			background: gray;
+		}
+		h2{
+			@include margin-left-and-bottom(20px);
+		}
+		p{
+			@include margin-left-and-bottom(20px);
+		}
+		img{
+			align-content: center;
+			width: $pixel-width-thumbnails;
+			height: $pixel-width-thumbnails;
+			border: 1px solid $secondary-color;
+			margin: 20px;
+		}
+		h3{
+
+		}
+		.float-left-p{
+			width: 470px;
+			float: left;
+			h3{
+				margin-left: 20px;
+				text-align: left;
+			}
+			p{
+				margin-left: 20px;
+				text-align: left;
+			}
+		}//end float left	
+		
+		.float-right-p{ 
+			margin-left: 490px;
+			width: 490px - 20px;
+			h3{
+				margin-left: 20px;
+				text-align: left;
+			}
+			p{
+				margin-left: 20px;
+				text-align: left;
+			}
+		}//end float roght	
+
+	}//end home-page
+	footer{
+		margin-left: 40%;
+		ul{
+			list-style: none;
+
+			li{
+				float: left;
+    			margin: 10px;
+
+    			a{
+    			display: block;
+    			color: black;
+    			padding: 32px - 16px;
+    			text-decoration: none;
+    			}
+    			a:hover{
+    				color: $accent-color;
+    			}
+			}// end LI
+
+		}// end UL
+
+	}//end footer
+
+}//end wrapper
+

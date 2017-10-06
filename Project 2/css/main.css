@@ -1,14 +1,78 @@
-/* line 5, ../scss/partials/_header.scss */
-#header nav {
-  float: right; }
-  /* line 8, ../scss/partials/_header.scss */
-  #header nav li {
+body, p, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0; }
+
+header {
+  background-color: #FF5C5C; }
+  header h1 {
+    margin-left: 25%;
+    color: black; }
+  header ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 50%; }
+    header ul li {
+      float: left; }
+      header ul li a {
+        display: inline-block;
+        color: black;
+        padding: 10px;
+        text-decoration: none; }
+      header ul li a:hover {
+        color: #B25353; }
+
+.wrapper .home-page {
+  margin-left: 25%;
+  width: 980px; }
+  .wrapper .home-page .banner-image {
+    align-content: center;
+    width: 940px;
+    height: 240px;
+    background: gray; }
+  .wrapper .home-page h2 {
+    margin-left: 20px;
+    margin-bottom: 20px; }
+  .wrapper .home-page p {
+    margin-left: 20px;
+    margin-bottom: 20px; }
+  .wrapper .home-page img {
+    align-content: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #3783B2;
+    margin: 20px; }
+  .wrapper .home-page .float-left-p {
+    width: 470px;
     float: left; }
+    .wrapper .home-page .float-left-p h3 {
+      margin-left: 20px;
+      text-align: left; }
+    .wrapper .home-page .float-left-p p {
+      margin-left: 20px;
+      text-align: left; }
+  .wrapper .home-page .float-right-p {
+    margin-left: 490px;
+    width: 470px; }
+    .wrapper .home-page .float-right-p h3 {
+      margin-left: 20px;
+      text-align: left; }
+    .wrapper .home-page .float-right-p p {
+      margin-left: 20px;
+      text-align: left; }
+.wrapper footer {
+  margin-left: 40%; }
+  .wrapper footer ul {
+    list-style: none; }
+    .wrapper footer ul li {
+      float: left;
+      margin: 10px; }
+      .wrapper footer ul li a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none; }
+      .wrapper footer ul li a:hover {
+        color: #B25353; }
 
-/* line 5, ../scss/pages/_home-page.scss */
-#home-page h1 {
-  color: #FF0000; }
-
-/* line 11, ../scss/pages/_home-page.scss */
-#home-page h1 {
-  color: blue; }
+/*# sourceMappingURL=main.css.map */
