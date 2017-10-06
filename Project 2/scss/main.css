@@ -9,16 +9,4 @@
 #home-page h1 {
   color: blue; }
 
-$font-stack:    Arial, sans-serif;
-$primary-font-color: #191919;
-$image-box-border: #d3d3d3;
-$menu-divider-color: #AA7243;
-
-
-nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
 /*# sourceMappingURL=main.css.map */
