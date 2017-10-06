@@ -1,1 +1,14 @@
-#header nav{float:right}#header nav li{float:left}#home-page h1{color:red}#home-page h1{color:blue}
+/* line 5, ../scss/partials/_header.scss */
+#header nav {
+  float: right; }
+  /* line 8, ../scss/partials/_header.scss */
+  #header nav li {
+    float: left; }
+
+/* line 5, ../scss/pages/_home-page.scss */
+#home-page h1 {
+  color: #FF0000; }
+
+/* line 11, ../scss/pages/_home-page.scss */
+#home-page h1 {
+  color: blue; }
