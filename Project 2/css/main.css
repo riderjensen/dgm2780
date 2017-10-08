@@ -3,18 +3,18 @@ body, p, h1, h2, .wrapper .home-page p, h3, .wrapper .home-page .float-left-p p,
   margin: 0; }
 
 header {
+  width: 980px;
   background-color: #3783B2; }
   header h1 {
-    margin-left: 25%;
+    margin-left: 5%;
     color: white; }
   header ul {
+    margin-left: 600px;
     position: absolute;
     top: 0;
-    right: 25%;
     list-style-type: none;
     padding: 0;
-    overflow: hidden;
-    margin-left: 50%; }
+    overflow: hidden; }
     header ul li {
       float: left; }
       header ul li a {
@@ -28,18 +28,9 @@ header {
 
 .wrapper {
   font-family: Arial, sans-serif; }
-  .wrapper .myBackgroundImage {
-    overflow: hidden; }
-    .wrapper .myBackgroundImage img {
-      z-index: -1;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      opacity: 0.6; }
   .wrapper .home-page {
     background-color: white;
-    margin-left: 25%;
+    margin-left: 1%;
     width: 980px;
     height: 1100px; }
     .wrapper .home-page .banner-image {
