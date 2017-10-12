@@ -1,3 +1,1 @@
-$(function() {
-	
-});
+TweenMax.to(".logo", 2, {right:600, backgroundColor: "#f00"});
