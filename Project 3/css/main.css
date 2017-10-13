@@ -1,100 +1,129 @@
+/* line 3, ../scss/partials/_reset.scss */
 body, p, h1, h2, html .wrapper .home-page p, h3, html .wrapper .home-page .float-left-p p, html .wrapper .home-page .float-right-p p, h4, h5, h6 {
   padding: 0;
   margin: 0; }
 
+/* line 3, ../scss/partials/_header.scss */
 header {
   max-width: 980px;
   margin: auto;
-  background-color: #3783B2; }
+  background-color: #3783B2;
+  position: relative; }
+  /* line 8, ../scss/partials/_header.scss */
   header .logo {
     position: absolute;
-    height: 30px;
+    height: 35px;
     width: 100px; }
+  /* line 13, ../scss/partials/_header.scss */
   header h1 {
     margin-left: 15%;
     color: white; }
+  /* line 17, ../scss/partials/_header.scss */
   header ul {
-    margin-left: 600px;
     position: absolute;
-    top: 0;
+    top: -50px;
+    left: 600px;
     list-style-type: none;
     padding: 0;
     overflow: hidden; }
+    /* line 26, ../scss/partials/_header.scss */
     header ul li {
       float: left; }
+      /* line 28, ../scss/partials/_header.scss */
       header ul li a {
         display: inline-block;
         color: white;
         padding-right: 15px;
         padding-left: 15px;
         text-decoration: none; }
+      /* line 35, ../scss/partials/_header.scss */
       header ul li a:hover {
         color: #B25353; }
 
+/* line 7, ../scss/pages/_home-page.scss */
 html {
   background-color: black;
   z-index: -2; }
+  /* line 10, ../scss/pages/_home-page.scss */
   html .wrapper {
     font-family: Arial, sans-serif; }
+    /* line 12, ../scss/pages/_home-page.scss */
     html .wrapper .myBackgroundImage {
       overflow: hidden; }
+      /* line 14, ../scss/pages/_home-page.scss */
       html .wrapper .myBackgroundImage img {
         z-index: -1;
         position: absolute;
         left: 0;
         top: 0;
         width: 100%; }
+    /* line 22, ../scss/pages/_home-page.scss */
     html .wrapper .home-page {
       background-color: white;
       margin-left: 1%;
       max-width: 980px;
       margin: auto;
       height: 1100px; }
+      /* line 28, ../scss/pages/_home-page.scss */
       html .wrapper .home-page .banner-image {
         align-content: center;
         width: 940px;
         height: 240px;
         border: 1px solid #FF5C5C; }
+      /* line 34, ../scss/pages/_home-page.scss */
       html .wrapper .home-page h2, html .wrapper .home-page p {
         margin-left: 20px;
         margin-bottom: 20px; }
+      /* line 37, ../scss/pages/_home-page.scss */
       html .wrapper .home-page p {
         padding-right: 20px; }
+      /* line 41, ../scss/pages/_home-page.scss */
       html .wrapper .home-page .far-right-thumb {
-        margin-left: 30px; }
+        margin-left: 30px;
+        opacity: 0; }
+      /* line 45, ../scss/pages/_home-page.scss */
       html .wrapper .home-page img {
         width: 200px;
         height: 200px;
         border: 1px solid #3783B2;
-        margin: 15px; }
+        margin: 15px;
+        opacity: 0; }
+      /* line 52, ../scss/pages/_home-page.scss */
       html .wrapper .home-page h3, html .wrapper .home-page .float-left-p p, html .wrapper .home-page .float-right-p p {
         padding-bottom: 5px; }
+      /* line 55, ../scss/pages/_home-page.scss */
       html .wrapper .home-page .float-left-p {
         width: 470px;
         float: left; }
+        /* line 58, ../scss/pages/_home-page.scss */
         html .wrapper .home-page .float-left-p h3, html .wrapper .home-page .float-left-p p {
           margin-left: 20px;
           text-align: left; }
+      /* line 67, ../scss/pages/_home-page.scss */
       html .wrapper .home-page .float-right-p {
         margin-left: 490px;
         width: 470px; }
+        /* line 70, ../scss/pages/_home-page.scss */
         html .wrapper .home-page .float-right-p h3, html .wrapper .home-page .float-right-p p {
           margin-left: 20px;
           text-align: left; }
+        /* line 74, ../scss/pages/_home-page.scss */
         html .wrapper .home-page .float-right-p p {
           padding-bottom: 20px; }
+      /* line 79, ../scss/pages/_home-page.scss */
       html .wrapper .home-page ul {
         margin-left: 25%;
         list-style: none; }
+        /* line 83, ../scss/pages/_home-page.scss */
         html .wrapper .home-page ul li {
           float: left;
           margin: 10px; }
+          /* line 87, ../scss/pages/_home-page.scss */
           html .wrapper .home-page ul li a {
             display: block;
             color: black;
             padding: 16px;
             text-decoration: none; }
+          /* line 93, ../scss/pages/_home-page.scss */
           html .wrapper .home-page ul li a:hover {
             color: #B25353; }
-
-/*# sourceMappingURL=main.css.map */

@@ -4,9 +4,10 @@ header {
 	max-width: 980px;
 	margin: auto;
 	background-color:$secondary-color;
+	position: relative;
 	.logo{
 		position: absolute;
-		height: 30px;
+		height: 35px;
 		width: 100px;
 	}
     h1{
@@ -14,9 +15,10 @@ header {
     	color: white;
     }
     ul{
-    	margin-left: 600px;
+    	
     	position: absolute;
-    	top: 0;
+    	top: -50px;
+    	left: 600px;
     	list-style-type: none;
 	    padding: 0;
 	    overflow: hidden;

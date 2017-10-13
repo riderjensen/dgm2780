@@ -40,12 +40,14 @@ html{
 			}
 			.far-right-thumb{
 				margin-left: 30px;
+				opacity: 0;
 			}
 			img{
 				width: $pixel-width-thumbnails;
 				height: $pixel-width-thumbnails;
 				border: 1px solid $secondary-color;
 				margin: 15px;
+				opacity: 0;
 			}
 			h3{
 				padding-bottom: 5px;
