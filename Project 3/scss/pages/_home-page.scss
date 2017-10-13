@@ -24,7 +24,7 @@ html{
 			margin-left: 1%;
 			max-width: 980px;
 			margin: auto;
-			height: 1100px;
+			height: 1150px;
 			.banner-image{
 				align-content: center;
 				width: 940px;
@@ -37,6 +37,12 @@ html{
 			p{
 				@extend h2;
 				padding-right: 20px;
+			}
+			button{
+				margin: auto;
+				margin-left: 360px;
+				padding: 10px;
+				border-radius: 10px;
 			}
 			.far-right-thumb{
 				margin-left: 30px;
